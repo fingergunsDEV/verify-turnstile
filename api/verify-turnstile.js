@@ -24,3 +24,4 @@ export default async function handler(req, res) {
     return res.status(400).json({ message: "Verification failed.", error: data["error-codes"] });
   }
 }
+
